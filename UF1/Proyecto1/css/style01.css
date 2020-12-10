@@ -1,0 +1,50 @@
+* {
+    outline: 1px solid red !important;
+
+}
+body {
+    padding: 10px;
+    outline: 5px solid brown !important;
+}
+.title { 
+    color: white;
+    padding-top: 1px;
+    outline: 5px solid #bb1082 !important;
+}
+.title>h1 {
+    background-color: rgb(67, 19, 243);
+    padding-top: 30px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    
+}
+.content {
+    display:flex;
+    outline: 5px solid #bb1082 !important;
+    padding: 10px;
+    margin-top: -13px;
+    margin-left: 0.5px;
+    margin-right: 1px;
+    padding-bottom: 15px;
+}
+
+.image {
+    flex: 1;
+    padding-right: 10px;
+    outline: 5px solid #2ed119 !important;
+}
+
+.description {
+    flex: 2;
+    padding-left: 5px;
+    margin-top: -3px;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: sans-serif;
+    outline: 5px solid #2ed119 !important;
+}
+
+img {
+    width: 100%;
+}
